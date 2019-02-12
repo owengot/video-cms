@@ -1,7 +1,7 @@
 {
   "version": 2,
   "alias": ["airtable-video-cms.now.sh"],
-  "name": "airtable-video-cms",
+  "name": "video-cms",
   "env": {
     "AIRTABLE_API_KEY": "@airtable-api-key",
     "AIRTABLE_BASE": "@airtable-base",
