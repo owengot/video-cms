@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": ["video-cms-f7tbfq4yu.now.sh"],
+  "alias": ["owengot-video-cms.now.sh"],
   "name": "video-cms",
   "env": {
     "AIRTABLE_API_KEY": "keyocggSHfh6E9gSg",
