@@ -22,7 +22,7 @@ class Upload extends React.Component {
   }
 
   getUploadUrl = async () => {
-    const res = await fetch('https://video-cms-f7tbfq4yu.now.sh/api/videos', {
+    const res = await fetch('owengot-video-cms.now.sh/api/videos', {
       method: 'POST',
       body: JSON.stringify({
         title: this.state.title,
@@ -80,7 +80,7 @@ class Upload extends React.Component {
   pollAsset = async () => {
     console.log('aww yeah we pollin now');
     const res = await fetch(
-      `https://video-cms-f7tbfq4yu.now.sh/api/videos/${this.state.video.id}`
+      `https://owengot-video-cms.now.sh/api/videos/${this.state.video.id}`
     );
     const video = await res.json();
 
