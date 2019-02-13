@@ -70,7 +70,7 @@ const Index = ({ videos }) => (
 );
 
 Index.getInitialProps = async ({ req }) => {
-  const res = await fetch('https://airtable-video-cms.now.sh/api/videos');
+  const res = await fetch('https://video-cms-f7tbfq4yu.now.sh/api/videos');
   const allVideos = await res.json();
 
   console.log(allVideos);

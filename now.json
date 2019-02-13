@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "alias": ["airtable-video-cms.now.sh"],
-  "name": "airtable-video-cms",
+  "alias": ["video-cms-f7tbfq4yu.now.sh"],
+  "name": "video-cms",
   "env": {
-    "AIRTABLE_API_KEY": "@airtable-api-key",
-    "AIRTABLE_BASE": "@airtable-base",
-    "MUX_TOKEN_ID": "@mux-token-id",
-    "MUX_TOKEN_SECRET": "@mux-token-secret"
+    "AIRTABLE_API_KEY": "keyocggSHfh6E9gSg",
+    "AIRTABLE_BASE": "Zeit Personal CMS",
+    "MUX_TOKEN_ID": "3820521e-8eb7-4c38-b3f9-9fabe90ab7bb",
+    "MUX_TOKEN_SECRET": "fM2G/rl2FTPZoGLJHlfDniFAakh1utEZn/kNSKgLAfaSoOQLD1MUpPeSGF/UQDM09W8qk3ljEG9"
   },
   "builds": [
     { "src": "api/*.js", "use": "@now/node" },

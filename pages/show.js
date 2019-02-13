@@ -38,7 +38,7 @@ const Show = ({ video }) => (
 
 Show.getInitialProps = async ({ query }) => {
   const res = await fetch(
-    `https://airtable-video-cms.now.sh/api/videos/${query.id}`
+    `https://video-cms-f7tbfq4yu.now.sh/api/videos/${query.id}`
   );
   const video = await res.json();
 
